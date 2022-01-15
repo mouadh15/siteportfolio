@@ -1,0 +1,80 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello SiteController!{% endblock %}
+
+{% block body %}
+<section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Guizani Ahmed Mouadh</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">Network and Telecomunication Student</p>
+    <img src="guizani.JPG" alt="a picture of Guizani smiling" class="intro__img">
+</section>
+
+<!-- My services -->
+<section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Programming</h3>
+            <p>I have some soft skills in web programming using html and css and software programming using python and language c </p>
+        </div> <!-- / service -->
+        
+        <div class="service">
+            <h3>Network administrator</h3>
+            <p>Maintaining computer networks and systems including software,routers,WiFi,firewalls and other physical hardware.Installing and configuring network equipment like switches ,routers to update or fix hardware or software issues</p>
+        </div> <!-- / service -->
+        
+        <div class="service">
+            <h3>Managing operating systems</h3>
+            <p>Administration of physical and virtualized servers in a VMware Linux and Windows environment.Also working on active Directory and Microsoft Exchange management </p>
+        </div> <!-- / service -->
+    </div> <!-- / services -->
+    
+    <a href="#work" class="btn">INTERESTS</a>
+</section>
+
+
+<!-- About me -->
+<section class="about-me" id="about">
+   <h2 class="section__title section__title--about">Who I am</h2>
+   <p class="section__subtitle section__subtitle--about">a hard-working student</p>
+   
+   <div class="about-me__body">
+       <p>Hello every body , i'm Guizani Ahmed Mouadh , i'm 19 years old a brilliant student Currently studying in the university of technology located in Roanne .I speak  english ,frensh and german fluently and my native language is arabic. </p>
+       <p>I have a satisfying knowledge with virtualization technologies, i'm a responsible person that works under pressure and who has a team player attitude . That's why i want to show my soft skills inside and outside a working time !</p>
+   </div>
+   
+   <img src="guizani.JPG" alt="Mouadh against a bus" class="about-me__img">
+</section>
+
+<!-- My Work -->
+<section class="my-work" id="work">
+    <h2 class="section__title">INTERESTS</h2>
+    <p class="section__subtitle"></p>
+    
+    <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="#" class="portfolio__item">
+            <img src="échecs.jpg" alt="" class="portfolio__img">
+        </a>
+        
+        <!-- Portfolio item 02 -->
+        <a href="#" class="portfolio__item">
+            <img src="karaté.jpg" alt="" class="portfolio__img">
+        </a>
+        
+        <!-- Portfolio item 03 -->
+        <a href="#" class="portfolio__item">
+            <img src="commerce.webp" alt="" class="portfolio__img">
+        </a>
+        
+        <!-- Portfolio item 04 -->
+        <a href="#" class="portfolio__item">
+            <img src="cinema.jpg" alt="" class="portfolio__img">
+        </a>
+        
+
+    </div>
+</section>
+{% endblock %}

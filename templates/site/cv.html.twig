@@ -1,0 +1,88 @@
+{% extends 'base1.html.twig' %}
+
+{% block title %}Hello SiteController!{% endblock %}
+
+{% block body %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Live Resume :: Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendors/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="live-resume.css">
+</head>
+<main>
+<section class="resume-section">
+    <div class="row">
+        <div class="col-lg-6">
+            <h6 class="section-subtitle">RESUME of my life </h6>
+            <h2 class="section-title">EDUCATION</h2>
+            <ul class="time-line">
+                <li class="time-line-item">
+                    <span class="date-head badge badge-primary">2020-2021</span>
+                    <h6 class="cv-header time-line-item-title">bac mathematiques </h6>
+                    <p class="time-line-item-subtitle">High school<br><br></p>
+                    <p class="time-line-item-content"></p>julien il est fort enorme beau gosse tout a fait normale .</p>
+                </li>
+                <li class="time-line-item">
+                    <span class="badge badge-primary">2021</span>
+                    <h6 class="time-line-item-title">Studied University</h6>
+                    <p class="time-line-item-subtitle">UNIVERSITY</p>
+                    <p class="time-line-item-content">r.
+                    </p>
+                </li>
+                <li class="time-line-item">
+                    <span class="badge badge-primary">1993 - 1995</span>
+                    <h6 class="time-line-item-title">Studied at Roanne University</h6>
+                    <p class="time-line-item-subtitle">UNIVERSITY</p>
+                    <p class="time-line-item-content">r.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-6">
+            <h6 class="section-subtitle">RESUME</h6>
+            <h2 class="section-title">compétences</h2>
+            <ul class="time-line">
+                <li class="time-line-item">
+                    <span class="badge badge-primary">2019-2020</span>
+                    <h6 class="time-line-item-title">programmer</h6>
+                    <p class="time-line-item-subtitle">level</p>
+                    <p class="time-line-item-content">.</p>
+                </li>
+                <li class="time-line-item">
+                    <span class="badge badge-primary">2020 - 2021</span>
+                    <h6 class="time-line-item-title">administer</h6>
+                    <p class="time-line-item-subtitle">level.</p>
+                    <p class="time-line-item-content">.
+                    </p>
+                </li>
+                <li class="time-line-item">
+                    <span class="badge badge-primary">2021-2022</span>
+                    <h6 class="time-line-item-title">connecter</h6>
+                    <p class="time-line-item-subtitle">level</p>
+                    <p class="time-line-item-content">r.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <form action="CVmouadh.pdf" method="get" target="_blank" rel="noopener noreferrer">
+        <label for="fname">First name:</label><br>
+        <input class="form-input" type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last name:</label><br>
+        <input class="form-input" type="text" id="lname" name="lname" required><br>
+        <label for="mail">Mail:</label><br>
+        <input class="form-input" type="text" id="mail" name="mail" required><br>
+        <input type="submit" value="download CV">
+    </form>
+</section>
+
+
+</main>
+</div>
+
+
+
+{% endblock %}
