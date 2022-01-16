@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* Custom Properties, update these for your own design */
+
 
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
@@ -35,12 +35,6 @@
     }
 }
 
-/* General styles */
-
-/* endable this to add smooth scrolling */
-/* html {
-    scroll-behavior: smooth;
-} */
 
 
 body {
@@ -88,7 +82,7 @@ strong { font-weight: var(--fw-bold) }
     transform: scale(1.1);
 }
 
-/* Typography */
+
 
 h1,
 h2,
@@ -295,9 +289,9 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(b.webp);
+    background-image: url(network.jpg);
     background-size: cover;
-    /* background-blend-mode: multiply; */
+   
     color: var(--clr-light);
     text-align: center;
 }
