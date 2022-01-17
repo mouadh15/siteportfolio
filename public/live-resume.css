@@ -48,18 +48,23 @@ html {
 }
 .cv-header{
   font-size:28px !important;
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: darkblue;
 }
 .level-header{
   font-size:21px !important;
+  color: cadetblue;
+
 }
 .font{
-color: var(--cyan);
+
 font-size:21px !important;
 font-family:"palatino linotype", palatino, serif;
 }
 .fontr{
   color: #343a40;
   font-size:19px !important;
+  border-color: darkcyan;
   
   }
   .high-header{
